@@ -1,9 +1,12 @@
 import React from 'react';
+import PlaceOrder from './components/PlaceOrder'
+import Orders from './components/Orders'
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello James Njorio</h1>
+    <div  class="grid grid-cols-3 divide-x">
+    <PlaceOrder/>
+    <Orders/>
     </div>
   );
 }
