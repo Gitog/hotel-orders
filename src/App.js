@@ -4,6 +4,7 @@ import Orders from './components/Orders'
 import CompleteOrders from './components/CompleteOrders'
 
 function App() {
+  
   return (
     <div className="container mx-auto bg-teal-500 px-10 py-4 mt-20">
        <h1 className='text-center text-white text-xl font-serif py-3'> JAY 5-Star Hotel Orders</h1>

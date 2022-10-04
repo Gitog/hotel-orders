@@ -1,0 +1,82 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "food": "ugali beef",
+      "time": "lunch",
+      "price": 350
+    },
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    {
+      "food": "Chips Chicken",
+      "time": "lunch",
+      "price": "400",
+      "id": 8
+    },
+    {
+      "food": "Tea and Bread",
+      "time": "breakfast",
+      "price": "150",
+      "id": 9
+    },
+    {
+      "food": "Coffee",
+      "time": "",
+      "price": "100",
+      "id": 10
+    },
+    {
+      "food": "Ugali Fish",
+      "time": "supper",
+      "price": "600",
+      "id": 11
+    },
+    {
+      "food": "Chips & Fish",
+      "time": "supper",
+      "price": "670",
+      "id": 12
+    },
+    {
+      "food": "Tea masala",
+      "time": "breakfast",
+      "price": "130",
+      "id": 13
+    },
+    {
+      "food": "White Tea",
+      "time": "breakfast",
+      "price": "120",
+      "id": 14
+    },
+    {
+      "food": "Black Coffee",
+      "time": "breakfast",
+      "price": "50",
+      "id": 15
+    },
+    {
+      "food": "Mango Juice",
+      "time": "breakfast",
+      "price": "80",
+      "id": 16
+    },
+    {
+      "food": "Chapati Chicken",
+      "time": "supper",
+      "price": "700",
+      "id": 17
+    }
+  ]
+}

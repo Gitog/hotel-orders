@@ -1,33 +1,59 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function PlaceOrder(){
 
+    const [food, setFood] = useState("");
+    const [time, setTime]=useState("");
+    const [price, setPrice]= useState(0);
+
+    function handleSubmit(e){
+        e.preventDefault()
+        console.log("Clicked Submit")
+        // setOrderData(data)
+        const singleOrder={
+            food,
+            time,
+            price
+        }
+            fetch('http://localhost:8000/orders',
+            {
+                method: 'POST',
+                headers:{
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(singleOrder)
+            })
+            .then(response =>response.json())
+            .then(data=>console.log(data))
+          
+      }
+
     return(
         <div className='py-5 px-4 shadow sm:px-10'>
-        <form className='mb-0 space-y-6' method='' >
+        <form className='mb-0 space-y-6'  onSubmit={handleSubmit}>
             <div>
-               <label for='food' className='block text-sm font-medium text-white'>
-                Food:     
+               <label className='block text-sm font-medium text-white'>
+                Food    
              </label>
             <div className='mt-1'>
-              <input type='text' name='name' required/>
+              <input type='text'placeholder='Chips Chicken' name='food' required  onChange={(e)=>setFood(e.target.value)}/>
             </div>
             </div>
 
             <div>
               
-            <div className='mt-1 flex'>
-            <label for='food' className='block text-sm font-medium text-white px-3'>
-            <input type='radio' name='name' value='breakfast' required checked/>
+            <div className='mt-1 flex' onClick={(e)=>setTime(e.target.value)}>
+            <label className='block text-sm font-medium text-white px-3'>
+            <input type='radio' name='name' value='breakfast' required/>
                 Breakfast   
              </label>
 
-             <label for='food' className='block text-sm font-medium text-white px-3'>
+             <label className='block text-sm font-medium text-white px-3'>
             <input type='radio' name='name' value='lunch' required/>
                 Lunch    
              </label>
 
-             <label for='food' className='block text-sm font-medium text-white px-3'>
+             <label className='block text-sm font-medium text-white px-3'>
             <input type='radio' name='name' value='supper' required/>
                 Dinner     
              </label>
@@ -37,15 +63,15 @@ function PlaceOrder(){
             </div>
            
             <div>
-               <label for='price' className='block text-sm font-medium text-white'>
+               <label className='block text-sm font-medium text-white'>
                 Price:     
              </label>
             <div className='mt-1'>
-              <input type='number' name='price' required/>
+              <input type='number' name='price' required  onChange={(e)=>setPrice(e.target.value)}/>
             </div>
             </div>
 
-            <button className='text-white bg-blue-500 px-3'>Submit</button>
+            <button type='submit' className='text-white bg-blue-500 px-3'>Submit</button>
         </form>
         </div>
     )
