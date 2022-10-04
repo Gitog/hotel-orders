@@ -5,6 +5,7 @@ function Orders(){
 
     return (
         <>
+         <h2 className="text-center text-white underline">Client Order</h2>
        <Order/>
         </>
     )
