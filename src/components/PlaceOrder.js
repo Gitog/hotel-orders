@@ -22,8 +22,6 @@ function PlaceOrder(){
                 },
                 body: JSON.stringify(singleOrder)
             })
-            // .then(response =>response.json())
-            // .then(data=>console.log(data))
           
       }
 
