@@ -8,8 +8,7 @@ function PlaceOrder(){
 
     function handleSubmit(e){
         e.preventDefault()
-        console.log("Clicked Submit")
-        // setOrderData(data)
+        // console.log("Clicked Submit")
         const singleOrder={
             food,
             time,
@@ -23,22 +22,22 @@ function PlaceOrder(){
                 },
                 body: JSON.stringify(singleOrder)
             })
-            .then(response =>response.json())
-            .then(data=>console.log(data))
+            // .then(response =>response.json())
+            // .then(data=>console.log(data))
           
       }
 
     return(
         <div className='py-5 px-4 shadow sm:px-10'>
         <form className='mb-0 space-y-6'  onSubmit={handleSubmit}>
-            <div>
+           
                <label className='block text-sm font-medium text-white'>
                 Food    
              </label>
             <div className='mt-1'>
               <input type='text'placeholder='Chips Chicken' name='food' required  onChange={(e)=>setFood(e.target.value)}/>
             </div>
-            </div>
+           
 
             <div>
               
@@ -62,13 +61,13 @@ function PlaceOrder(){
             
             </div>
            
-            <div>
+            
                <label className='block text-sm font-medium text-white'>
                 Price:     
              </label>
             <div className='mt-1'>
               <input type='number' name='price' required  onChange={(e)=>setPrice(e.target.value)}/>
-            </div>
+            
             </div>
 
             <button type='submit' className='text-white bg-blue-500 px-3'>Submit</button>

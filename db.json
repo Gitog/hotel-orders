@@ -6,18 +6,6 @@
       "time": "lunch",
       "price": 350
     },
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
     {
       "food": "Chips Chicken",
       "time": "lunch",
@@ -32,7 +20,7 @@
     },
     {
       "food": "Coffee",
-      "time": "",
+      "time": "breakfast",
       "price": "100",
       "id": 10
     },
@@ -77,6 +65,12 @@
       "time": "supper",
       "price": "700",
       "id": 17
+    },
+    {
+      "food": "Fish Plain",
+      "time": "lunch",
+      "price": "450",
+      "id": 18
     }
   ]
 }

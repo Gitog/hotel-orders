@@ -1,10 +1,12 @@
 import React  from "react";
 
-function Order(){
+function Order({food, time, price}){
     return (
-        <>
-       <p>list orders</p>
-       </>
+        <tr>
+        <td class='border border-slate-300'>{food}</td>
+        <td class='border border-slate-300'>{time}</td>
+        <td class='border border-slate-300'>{price}</td>
+      </tr>
     )
 }
 
