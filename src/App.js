@@ -3,7 +3,7 @@ import {Routes, Route} from "react-router-dom"
 import NavBar from './components/NavBar';
 import PlaceOrder from './components/PlaceOrder'
 import Orders from './components/Orders'
-import CompleteOrders from './components/CompleteOrders'
+import Sales from './components/Sales'
 
 function App() {
   
@@ -19,19 +19,19 @@ function App() {
   },[])
 
   return (
-    <div className="container mx-auto bg-teal-500 px-10  mt-20">
+    <div className="container mx-auto bg-teal-500 mt-20">
 
       <NavBar onChangePage={setPage}/>
 
        <h1 className='text-center text-white text-xl font-serif py-3'> JAY 5-Star Hotel Orders</h1>
-       <div  className="max-w-md mx-auto rounded-xl bg-zinc-500 md:bg-red-500 lg:bg-emarald-500 px-4">
+       <div  className="max-w-md mx-auto rounded-xl drop-shadow-2xl bg-zinc-500 md:bg-red-500 lg:bg-emarald-500 px-4">
           <Routes>
 
             <Route path='/' element={<PlaceOrder/>}/>
 
             <Route path='/orders' element={<Orders orders ={orders}/>}/>
 
-            <Route path='/completeorders' element={ <CompleteOrders/>}/>
+            <Route path='/sales' element={ <Sales orders={orders}/>}/>
 
           </Routes>
     </div>

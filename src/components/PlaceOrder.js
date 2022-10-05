@@ -29,6 +29,7 @@ function PlaceOrder(){
 
     return(
         <div className='py-5 px-4 shadow sm:px-10'>
+            <h1 className='text-center text-white'>What's the Order?</h1>
         <form className='mb-0 space-y-6'  onSubmit={handleSubmit}>
            
                <label className='block text-sm font-medium text-white'>

@@ -7,30 +7,6 @@
       "price": 350
     },
     {
-      "food": "Chips Chicken",
-      "time": "lunch",
-      "price": "400",
-      "id": 8
-    },
-    {
-      "food": "Tea and Bread",
-      "time": "breakfast",
-      "price": "150",
-      "id": 9
-    },
-    {
-      "food": "Coffee",
-      "time": "breakfast",
-      "price": "100",
-      "id": 10
-    },
-    {
-      "food": "Ugali Fish",
-      "time": "supper",
-      "price": "600",
-      "id": 11
-    },
-    {
       "food": "Chips & Fish",
       "time": "supper",
       "price": "670",
