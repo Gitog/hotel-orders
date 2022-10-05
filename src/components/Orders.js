@@ -7,13 +7,13 @@ function Orders({orders}){
         <>
          <h2 className="text-center text-white underline">Client Order</h2>
          <div  className='py-5 px-4 shadow sm:px-10'>
-         <table class="border-collapse border border-slate-400">    
+         <table className="border-collapse border border-slate-400">    
            <tbody>
                <tr>
-                <th class='border border-slate-300'>Food</th>
-                <th class='border border-slate-300'>Time</th>
-                <th class='border border-slate-300'>Price</th>
-              <th class='border border-slate-300'>Pay</th>
+                <th className='border border-slate-300'>Food</th>
+                <th className='border border-slate-300'>Time</th>
+                <th className='border border-slate-300'>Price</th>
+              <th className='border border-slate-300'>Pay</th>
            </tr>
            {
          orders.map((order)=>(
