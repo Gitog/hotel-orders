@@ -23,7 +23,7 @@ function App() {
 
       <NavBar onChangePage={setPage}/>
 
-       <h1 className='text-center text-white text-xl font-serif py-3'> JAY 5-Star Hotel Orders</h1>
+       <h1 className='text-center text-white text-xl font-serif py-3'> Horizon 5-Star Hotel Orders</h1>
        <div  className="max-w-md mx-auto rounded-xl drop-shadow-2xl bg-zinc-500 md:bg-red-500 lg:bg-emarald-500 px-4">
           <Routes>
 

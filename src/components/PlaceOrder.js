@@ -38,8 +38,7 @@ function PlaceOrder(){
             </div>
            
 
-            <div>
-              
+            <div>  
             <div className='mt-1 flex' onClick={(e)=>setTime(e.target.value)}>
             <label className='block text-sm font-medium text-white px-3'>
             <input type='radio' name='name' value='breakfast' required/>
