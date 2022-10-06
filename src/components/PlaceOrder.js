@@ -68,7 +68,7 @@ function PlaceOrder(){
             
             </div>
 
-            <button type='submit' className='text-white bg-blue-500 px-3'>Submit</button>
+            <button type='submit' className='text-white bg-blue-500 px-3 hover:bg-violet-600'>Submit</button>
         </form>
         </div>
     )

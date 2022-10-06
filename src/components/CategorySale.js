@@ -1,10 +1,13 @@
 import React from 'react'
 
-function CategorySale({total}){
+function CategorySale({price}){
+
+    console.log(price)
+    
     return (
 
         <>
-        <li>45,000</li>
+        <li className="text-white">Totals sales amount: Kshs price</li>
         </>
     )
 }
