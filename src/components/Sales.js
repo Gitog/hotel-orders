@@ -37,9 +37,8 @@ function Sales({orders}){
          orders.filter((order)=>{
             return order.time === 'dinner'
         }).map((dnnr)=>{
-            
-            filteredData +=dnnr.price
-             setFilteredData(filteredData)
+        
+             setFilteredData(dnnr.price)
         })
        }
 
