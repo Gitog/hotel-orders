@@ -51,7 +51,7 @@ function PlaceOrder(){
              </label>
 
              <label className='block text-sm font-medium text-white px-3'>
-            <input type='radio' name='name' value='supper' required/>
+            <input type='radio' name='name' value='dinner' required/>
                 Dinner     
              </label>
              

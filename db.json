@@ -7,24 +7,6 @@
       "price": 350
     },
     {
-      "food": "Chips & Fish",
-      "time": "supper",
-      "price": "670",
-      "id": 12
-    },
-    {
-      "food": "Tea masala",
-      "time": "breakfast",
-      "price": "130",
-      "id": 13
-    },
-    {
-      "food": "White Tea",
-      "time": "breakfast",
-      "price": "120",
-      "id": 14
-    },
-    {
       "food": "Black Coffee",
       "time": "breakfast",
       "price": "50",
@@ -50,9 +32,21 @@
     },
     {
       "food": "Rice Beef",
-      "time": "supper",
+      "time": "dinner",
       "price": "530",
       "id": 19
+    },
+    {
+      "food": "Black Tea and Sausage",
+      "time": "breakfast",
+      "price": "230",
+      "id": 20
+    },
+    {
+      "food": "Fish Plain",
+      "time": "dinner",
+      "price": "450",
+      "id": 21
     }
   ]
 }

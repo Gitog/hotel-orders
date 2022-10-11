@@ -1,13 +1,14 @@
 import React from 'react'
 
-function CategorySale({price}){
-
-    console.log(price)
-    
+function CategorySale({price,time}){   
+   
     return (
 
         <>
-        <li className="text-white">Totals sales amount: Kshs price</li>
+        <div>
+        <li className="text-white">Today's sale Kshs {price} </li>
+        </div>
+        
         </>
     )
 }
