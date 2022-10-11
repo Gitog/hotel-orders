@@ -4,10 +4,6 @@ import CategorySale from "./CategorySale"
 function Sales({orders}){
     // console.log(orders)
 
-    // const [checked, setChecked]= useState("false")
-    // const [breakfast , setBreakfast] = useState(0)
-    // const [lunch , setLunch] = useState(0)
-    // const [dinner , setDinner] = useState(0)
     const [filteredData, setFilteredData] = useState(0)
     let summation = 0
     
@@ -38,14 +34,12 @@ function Sales({orders}){
 
        else if(e.target.name==='dinner'){
         console.log("dinner Checked")
-        const dinner = orders.filter((order)=>{
+         orders.filter((order)=>{
             return order.time === 'dinner'
-        })
-        // console.log(lunch)
-        dinner.map((dnnr)=>{
+        }).map((dnnr)=>{
             
-            summation +=dnnr.price
-             setFilteredData(summation)
+            filteredData +=dnnr.price
+             setFilteredData(filteredData)
         })
        }
 

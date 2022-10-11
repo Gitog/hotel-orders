@@ -13,40 +13,10 @@
       "id": 15
     },
     {
-      "food": "Mango Juice",
-      "time": "breakfast",
-      "price": "80",
-      "id": 16
-    },
-    {
-      "food": "Chapati Chicken",
-      "time": "supper",
-      "price": "700",
-      "id": 17
-    },
-    {
-      "food": "Fish Plain",
-      "time": "lunch",
-      "price": "450",
-      "id": 18
-    },
-    {
       "food": "Rice Beef",
       "time": "dinner",
       "price": "530",
       "id": 19
-    },
-    {
-      "food": "Black Tea and Sausage",
-      "time": "breakfast",
-      "price": "230",
-      "id": 20
-    },
-    {
-      "food": "Fish Plain",
-      "time": "dinner",
-      "price": "450",
-      "id": 21
     }
   ]
 }
